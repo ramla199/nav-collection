@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-wrapper {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.icon {
+ flex-grow: 1;
+ font-size: 1em;
+}
+
+.item-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.item {
+   list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
